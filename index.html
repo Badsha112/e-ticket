@@ -5,13 +5,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Badsha Travels</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/bus-logo.png" type="image/x-icon">
 
-    <!-- DaisyUI CDN -->
+    <!-- DaisyUI and Tailwind CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Raleway & Inter font added -->
+    <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -32,7 +34,7 @@
 
 <body class="max-w-screen-2xl mx-auto inter-font">
     <header id="header" class="max-w-screen-xl mx-auto">
-        <!-- Navbar Section-->
+        <!-- Navbar -->
         <nav class="flex lg:flex-row gap-4 justify-between items-center my-8">
             <div>
                 <h1 class="text-4xl font-extrabold">Badsha Travels</h1>
@@ -140,7 +142,7 @@
             </div>
         </section>
 
-        <!-- Comfy Travel Ticket Booking System Section -->
+        <!-- Ticket Booking  -->
         <section class="border-t-2 border-[#1DD100] rounded-t-3xl pb-16  pt-16 bg-[#F7F8F8]">
             <div class="max-w-screen-xl mx-auto">
                 <div class="text-center pb-8 space-y-4">
@@ -150,13 +152,13 @@
                         features allow for a streamlined .</p>
                 </div>
 
-                <!-- Seats & Time Section  -->
+                <!-- Seats & Time -->
                 <div class="bg-white rounded-xl lg:flex">
                     <div class="border-r border-dashed border-[#1DD100] relative p-8 lg:w-4/5">
                         <div class="bg-[#F7F8F8] rounded-b-full w-12 h-6 absolute top-0 -right-6"></div>
                         <div class="bg-[#F7F8F8] rounded-t-full w-12 h-6 absolute bottom-0 -right-6"></div>
                         <div class="lg:flex justify-between pb-4">
-                            <!--Tittle -->
+                        
                             <div class="flex items-center gap-4">
                                 <div>
                                     <img src="./images/bus-logo.png" alt="">
@@ -166,7 +168,6 @@
                                     <p class="text-xl">Coach-009-WEB ! AC_Business</p>
                                 </div>
                             </div>
-                            <!-- Remaining Seats -->
                             <div class="flex items-center gap-2 border bg-green-100 p-4 rounded-xl max-h-12">
                                 <div>
                                     <img src="./images/seat-green.png" alt="">
@@ -174,7 +175,7 @@
                                 <p class="font-bold text-[#1DD100]"><span id="seats-left">40</span> seats Left</p>
                             </div>
                         </div>
-                        <!-- Details -->
+                    
                         <div class="bg-[#F7F8F8] rounded-xl px-4">
                             <div class="flex justify-between border-dashed border-b border-gray-400 py-4">
                                 <p>Route</p>
@@ -207,8 +208,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Select Your Seats -->
                 <div class="bg-white lg:flex my-4 rounded-xl py-4">
                     <div class="lg:w-3/5 border-r border-dashed border-gray-400 p-4">
                         <h2 class="pb-4 border-dashed border-b border-gray-300 font-bold text-2xl">Select your seat</h2>
@@ -227,7 +226,9 @@
                             </div>
                         </div>
 
-                        <!-- All Seats -->
+
+
+                        <!-- Seats -->
                         <div class="pt-4">
                             <div class="flex justify-end">
                                 <img class=" bg-slate-200 py-4 px-12 rounded-lg w-32" src="/images/steering-wheel.png"
@@ -255,7 +256,6 @@
                                 <div class="flex gap-4 items-center">
                                     <p class="text-xl">C</p>
                                     <div class="flex justify-between gap-4 items-center w-full">
-                                        <p id="C1" class="seat btn bg-[#F7F8F8] py-4 px-12 rounded-lg w-32">C1</p>
                                         <p id="C1" class="seat btn bg-[#F7F8F8] py-4 px-12 rounded-lg w-32">C1</p>
                                         <p id="C2" class="seat btn bg-[#F7F8F8] py-4 px-12 rounded-lg w-32 mr-16">C2</p>
                                         <p id="C3" class="seat btn bg-[#F7F8F8] py-4 px-12 rounded-lg w-32">C3</p>
@@ -330,7 +330,7 @@
                         </div>
                     </div>
 
-                    <!-- Checkout Section-->
+                    <!-- Checkout section added-->
                     <div class="p-4 lg:w-2/5">
                         <h2 class="pb-4 border-b border-dashed border-gray-300 font-bold text-2xl w-full">Select your
                             seat</h2>
@@ -354,7 +354,7 @@
 
                                 </div>
 
-                                <!-- Coupne Field -->
+                                <!-- Coupon -->
                                 <div id="coupon-filed" class="bg-white rounded-lg p-2 flex justify-between my-4">
                                     <input id="coupon-value" class="w-full px-4" type="text" name="" id=""
                                         placeholder="Have any copupon?">
@@ -413,7 +413,6 @@
         </section>
     </main>
 
-    <!-- POPUP Window -->
     <div id="popup-div" class="h-screen w-full hidden">
         <div class="flex justify-center h-full items-center">
             <div class="card w-1/2 bg-base-100 shadow-xl bg-white">
